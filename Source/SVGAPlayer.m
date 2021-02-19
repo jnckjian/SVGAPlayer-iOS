@@ -59,7 +59,7 @@
 
 - (void)initPlayer {
     self.contentMode = UIViewContentModeTop;
-    self.clearsAfterStop = YES;
+    self.clearsAfterStop = NO;
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
